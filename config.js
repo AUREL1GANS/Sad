@@ -149,7 +149,7 @@ global.rpg = {
       iron: '⛓️',
       gold: '🪙',
       emerald: '❇️',
-      upgrader: 
+      upgrader: '🧰'
       
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
