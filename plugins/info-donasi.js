@@ -4,8 +4,8 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 let pepe = pp ? await (await fetch(pp)).buffer() : Buffer.alloc(0)
 let str = ` ${conn.getName(m.sender)} Want Support Bot?
 *PAYMENT ↓*
-_*Pulsa/pulse(Telkomsel):*_ 082287219167
-_*Dana/ovo:*_ 0895612153565
+_*Pulsa/pulse(Telkomsel):*_ 085158185567
+_*Dana/ovo:*_ -
 Setelah melakukan donasi kirim bukti pembayaran ke owner
 `
 conn.sendHydrated(m.chat, str, wm, pepe, 'https://github.com/AUREL1GANS//', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
